@@ -26,6 +26,7 @@ I combine analytical thinking with creative problem-solving to build end-to-end 
 📍 Logistic Regression | Seaborn | sklearn  
 📊 [Sleep & Focus Analysis ➜](https://github.com/dimitrisdiam/How-Caffeine-Affects-Sleep-and-Focus-A-Data-Driven-Investigation)
 
+<img src=https://github.com/dimitrisdiam/How-Caffeine-Affects-Sleep-and-Focus-A-Data-Driven-Investigation/blob/main/model_outputs/feature_importance_based_on_permutation.png width="600"/>
 ---
 
 ### 🛰️ AI-Based Land Cover Classification  
@@ -33,6 +34,7 @@ Simulated satellite imagery + Random Forest to classify land types like forest, 
 📍 NDVI, NIR, SWIR | Synthetic ML Pipeline  
 📊 [Geospatial AI ➜](https://github.com/dimitrisdiam/land_cover_classification_ai)
 
+<img src=https://github.com/dimitrisdiam/land_cover_classification_ai/blob/main/outputs/feature_importance.png width="600"/>
 ---
 
 ### 🧠 Master's Thesis: GNNs for Fertility Prediction  
