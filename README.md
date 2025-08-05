@@ -11,15 +11,26 @@ I combine analytical thinking with creative problem-solving to build end-to-end 
 
 ## 🛠️ Tools & Technologies
 
-**Languages:** Python, R, SQL, SparkR  
-**Frameworks:** Scikit-learn, XGBoost, BeautifulSoup, LangChain, Tkinter  
-**Platforms:** GCP (BigQuery), Azure Synapse, GitHub, Docker  
-**Data Skills:** ML Pipelines, Feature Engineering, ETL, Web Scraping, Dashboards  
-**Business Domains:** Healthcare, Logistics, Real Estate, Sustainability, Finance
+**Languages:** Python, SQL, R, SparkR  
+**Frameworks & Libraries:** Scikit-learn, XGBoost, LangChain, BeautifulSoup, Pandas, Tkinter  
+**LLM & AI:** OpenAI (GPT-3.5), LangChain Agents, Prompt Engineering  
+**Cloud & DevOps:** GCP (BigQuery, Vertex AI), Azure Synapse, Streamlit, GitHub, Docker  
+**Data Engineering:** ETL/ELT Pipelines, Airflow, SQL Optimization, Data Modeling  
+**Domains:** Healthcare, Logistics, Sustainability, Real Estate, Finance  
 
 ---
 
 ## 🚀 Projects
+
+### 🧠 Company SQL Chatbot – AI Assistant for Business Data
+An AI chatbot that connects GPT-3.5 with a real SQLite company database using LangChain.  
+Users can ask natural questions, and the agent translates them into SQL queries and responds with intelligent answers.  
+📍 Streamlit | LangChain | OpenAI API | SQLite  
+📦 [View Project ➜](https://github.com/dimitrisdiam/company-chatbot-sql)
+
+<img src=https://github.com/dimitrisdiam/company-chatbot-sql/blob/main/chat_screenshot.jpeg width="600"/>
+
+---
 
 ### ☕ How Caffeine Affects Sleep and Focus
 **Predictive model on personal data** to analyze how caffeine consumption impacts sleep.  
