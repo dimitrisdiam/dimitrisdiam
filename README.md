@@ -1,133 +1,62 @@
-## 👋 Hi, I'm Dimitrios Diamantidis!
+# Hi, I'm Dimitrios Diamantidis
 
-📊 Data Scientist | Data Engineer | AI Builder  
-I combine analytical thinking with creative problem-solving to build end-to-end data solutions. From scraping the web to deploying machine learning models, I love solving real-world challenges — especially in logistics, healthcare, sustainability, and automation.
+**Data & ML Engineer. I build data pipelines and LLM powered applications.**
 
-📍 Based in the Netherlands 🇳🇱 | Originally from Greece 🇬🇷  
-🎓 MSc in Applied Data Science – Utrecht University  
-🌐 [LinkedIn](https://www.linkedin.com/in/dimitrios-diamantidis-8a9346228/) | 📧 dimitridiamantidi@gmail.com
+I take problems from raw, messy data through to working systems. Pipelines that move and model data, machine learning models, and apps built on top of large language models. The part I care about most is making sure a result is actually correct before anyone trusts it.
 
----
+Based in the Netherlands. Originally from Greece.
+MSc in Applied Data Science, Utrecht University.
 
-## 🛠️ Tools & Technologies
+[LinkedIn](https://www.linkedin.com/in/your-handle) · dimitridiamantidi@gmail.com
 
-**Languages:** Python, SQL, R, SparkR  
-**Frameworks & Libraries:** Scikit-learn, XGBoost, LangChain, BeautifulSoup, Pandas, Tkinter  
-**LLM & AI:** OpenAI (GPT-3.5), LangChain Agents, Prompt Engineering  
-**Cloud & DevOps:** GCP (BigQuery, Vertex AI), Azure Synapse, Streamlit, GitHub, Docker  
-**Data Engineering:** ETL/ELT Pipelines, Airflow, SQL Optimization, Data Modeling  
-**Domains:** Healthcare, Logistics, Sustainability, Real Estate, Finance  
+## Tools
 
----
+**Languages:** Python, SQL, R
+**ML:** scikit-learn, XGBoost, PyTorch (Graph Neural Networks)
+**LLM and AI:** LangChain, OpenAI API, prompt engineering, retrieval
+**Data engineering:** ETL and ELT pipelines, Airflow, BigQuery, dimensional modeling
+**Cloud and tooling:** GCP (BigQuery, Vertex AI), Docker, Streamlit, Git
 
-## 🚀 Projects
+## Projects
 
-### 🧠 Company SQL Chatbot – AI Assistant for Business Data
-An AI chatbot that connects GPT-3.5 with a real SQLite company database using LangChain.  
-Users can ask natural questions, and the agent translates them into SQL queries and responds with intelligent answers.  
-📍 Streamlit | LangChain | OpenAI API | SQLite  
-📦 [View Project ➜](https://github.com/dimitrisdiam/company-chatbot-sql)
+### Company SQL Chatbot. Natural language questions over a database
+An assistant that connects an OpenAI model to a SQLite company database through a LangChain SQL agent. You ask a question in plain English, it writes and runs the SQL, and returns the answer. It also has an evaluation script that measures how often the answers are correct.
+`LangChain · OpenAI · SQLite · Streamlit`
+[View project](https://github.com/dimitrisdiam/company-chatbot-sql)
 
-<img src=https://github.com/dimitrisdiam/company-chatbot-sql/blob/main/chat_screenshot.jpeg width="600"/>
+### GreenPlates. Food waste analytics pipeline
+An end to end SQL pipeline on restaurant IoT data, built in BigQuery. It covers ingestion, a dimensional model, and KPIs for tracking waste. Shows how I structure a warehouse and turn raw events into metrics people can act on.
+`BigQuery · dimensional modeling · KPIs`
+[View project](https://github.com/dimitrisdiam/greenplates)
 
----
+### Master's Thesis. Graph Neural Networks for fertility prediction
+Research applying Graph Neural Networks to predict fertility intentions from social network structure. It covers the modeling, the network analysis, and how social influence was represented in the graph.
+`PyTorch · GNNs · network analysis`
+[View project](https://github.com/dimitrisdiam/thesis)
 
-### ☕ How Caffeine Affects Sleep and Focus
-**Predictive model on personal data** to analyze how caffeine consumption impacts sleep.  
-📍 Logistic Regression | Seaborn | sklearn  
-📊 [Sleep & Focus Analysis ➜](https://github.com/dimitrisdiam/How-Caffeine-Affects-Sleep-and-Focus-A-Data-Driven-Investigation)
+### Land Cover Classification. Satellite imagery to land types
+A machine learning pipeline that classifies land into types such as forest, water, and urban using spectral features like NDVI, NIR, and SWIR. Built as a full classification workflow with a Random Forest model.
+`scikit-learn · Random Forest · geospatial features`
+[View project](https://github.com/dimitrisdiam/land-cover)
 
-<img src=https://github.com/dimitrisdiam/How-Caffeine-Affects-Sleep-and-Focus-A-Data-Driven-Investigation/blob/main/model_outputs/feature_importance_based_on_permutation.png width="600"/>
----
+### Predicting Student Scores. Supervised regression
+A regression project in a competition style format. Feature engineering plus model comparison across Ridge and XGBoost, tuned to reduce error on a held out set.
+`scikit-learn · XGBoost · feature engineering`
+[View project](https://github.com/dimitrisdiam/student-scores)
 
-### 🛰️ AI-Based Land Cover Classification  
-Simulated satellite imagery + Random Forest to classify land types like forest, water, cocoa, urban.  
-📍 NDVI, NIR, SWIR | Synthetic ML Pipeline  
-📊 [Geospatial AI ➜](https://github.com/dimitrisdiam/land_cover_classification_ai)
+### Real Estate Price Tracker. Web scraping and automation
+A scraper that collects listing prices and writes them to Google Sheets on a schedule. A small, working data ingestion tool rather than a one off script.
+`Python · Selenium · automation`
+[View project](https://github.com/dimitrisdiam/real-estate-tracker)
 
-<img src=https://github.com/dimitrisdiam/land_cover_classification_ai/blob/main/outputs/feature_importance.png width="600"/>
----
+## What I'm working on now
 
-### 🧠 Master's Thesis: GNNs for Fertility Prediction  
-Advanced research on using **Graph Neural Networks** to predict fertility intentions in social networks.  
-📍 GNN | Network Analysis | Social Influence Modeling  
-📊 [Thesis Repo ➜](https://github.com/dimitrisdiam/Optimizing-Graph-Neural-Networks-for-Predicting-Fertility-Intentions-in-Social-Networks)
+- Combining LangChain with PySpark for querying larger datasets
+- Evaluation harnesses for LLM apps, so answers can be measured rather than assumed
+- Dashboards for sustainability analytics
 
----
+## Get in touch
 
-### 🥦 GreenPlates – Food Waste Analytics  
-End-to-end **SQL pipeline on synthetic IoT data** to analyze food waste in restaurants.  
-📍 BigQuery SQL | KPIs | Dimensional Modeling  
-📊 [GreenPlates Project ➜](https://github.com/dimitrisdiam/greenplates-food-waste-analytics)
+If you are hiring or want to talk about data and ML, reach out.
 
----
-
-### 🎬 Cineville Membership Insights  
-Simulated Cineville ecosystem for **retention, churn, and engagement analytics.**  
-📍 Python + SQL + Data Storytelling  
-📊 [Cineville Data Analyst Project ➜](https://github.com/dimitrisdiam/cineville)
-
----
-
-### 🚚 Grocery Delivery Analytics  
-Created from scratch: a data environment to explore **customer loyalty, order trends, and delivery slots.**  
-📍 Pandas | EDA | Business Logic Simulation  
-📊 [Grocery Logistics ➜](https://github.com/dimitrisdiam/Optimizing-Delivery-Slot-Allocation-for-Online-Grocery-Orders)
-
----
-
-### 📈 Supervised Learning: Predicting Student Scores  
-Competition-style regression project with Ridge, XGBoost, and more.  
-📍 Feature Engineering | MSE Optimization  
-📊 [ML Competition ➜](https://github.com/dimitrisdiam/Supervised-Learning-Competition)
-
----
-
-### 🧹 Data Cleaning & Entity Resolution (Academic)
-Projects on **profiling, matching, and preparing relational data** using Python & SQL.  
-📍 Similarity Scores | Levenshtein | Pandas  
-📊 [Data Integration ➜](https://github.com/dimitrisdiam/Data-Extraction-Integration-pt2)
-
----
-
-### 🎥 Movie Reviews Text Mining  
-R project using **clustering and LDA** on movie review sentiment.  
-📍 tidytext | DBSCAN | Topic Modeling  
-📊 [Text Mining in R ➜](https://github.com/dimitrisdiam/Text_Mining-and_Clustering_Analysis_on_Movie_Reviews)
-
----
-
-### 🤖 Robo-Advisor App  
-Tkinter-powered GUI that uses **ETF/crypto price history & risk profiles** to recommend investment portfolios.  
-📍 yFinance | Matplotlib | ESG Modeling  
-📊 [Robo-Advisor ➜](https://github.com/dimitrisdiam/ROBO_ADVISOR)
-
----
-
-### 🛒 Amazon Price Tracker  
-Web scraper that sends an **email alert when prices drop.**  
-📍 Python | BeautifulSoup | Email Automation  
-📊 [Amazon Tracker ➜](https://github.com/dimitrisdiam/Amazon_Price_Tracker)
-
----
-
-### 🏠 Real Estate Price Tracker  
-Web automation that scrapes Zillow prices and submits to Google Sheets via Selenium.  
-📍 Python | Automation | Google Forms  
-📊 [Real Estate Scraper ➜](https://github.com/dimitrisdiam/Real_Estate_Scraping)
-
----
-
-## 💡 What I’m Working on Now:
-- LangChain + PySpark use case for intelligent querying  
-- Personal assistant bot to generate housing application letters  
-- Geo-based dashboards for sustainability analytics
-
----
-
-## 📬 Let’s Connect!
-If you’re hiring, collaborating, or just want to chat about AI and data, feel free to reach out!
-
-📧 dimitridiamantidi@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/dimitrios-diamantidis-8a9346228/)  
-🌍 [Portfolio Site – Coming Soon](#)
+dimitridiamantidi@gmail.com · [LinkedIn](https://www.linkedin.com/in/your-handle)
