@@ -34,11 +34,6 @@ Research applying Graph Neural Networks to predict fertility intentions from soc
 `PyTorch · GNNs · network analysis`
 [View project](https://github.com/dimitrisdiam/Optimizing-Graph-Neural-Networks-for-Predicting-Fertility-Intentions-in-Social-Networks)
 
-### Land Cover Classification. Satellite imagery to land types
-A machine learning pipeline that classifies land into types such as forest, water, and urban using spectral features like NDVI, NIR, and SWIR. Built as a full classification workflow with a Random Forest model.
-`scikit-learn · Random Forest · geospatial features`
-[View project](https://github.com/dimitrisdiam/land_cover_classification_ai)
-
 ### Predicting Student Scores. Supervised regression
 A regression project in a competition style format. Feature engineering plus model comparison across Ridge and XGBoost, tuned to reduce error on a held out set.
 `scikit-learn · XGBoost · feature engineering`
