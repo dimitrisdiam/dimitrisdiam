@@ -7,7 +7,7 @@ I take problems from raw, messy data through to working systems. Pipelines that 
 Based in the Netherlands. Originally from Greece.
 MSc in Applied Data Science, Utrecht University.
 
-[LinkedIn](https://www.linkedin.com/in/your-handle) · dimitridiamantidi@gmail.com
+[LinkedIn](https://www.linkedin.com/in/dimitrios-diamantidis-8a9346228/) · dimitridiamantidi@gmail.com
 
 ## Tools
 
@@ -59,4 +59,4 @@ A scraper that collects listing prices and writes them to Google Sheets on a sch
 
 If you are hiring or want to talk about data and ML, reach out.
 
-dimitridiamantidi@gmail.com · [LinkedIn](https://www.linkedin.com/in/your-handle)
+dimitridiamantidi@gmail.com · [LinkedIn](https://www.linkedin.com/in/dimitrios-diamantidis-8a9346228/)
