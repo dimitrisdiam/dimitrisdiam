@@ -27,27 +27,27 @@ An assistant that connects an OpenAI model to a SQLite company database through 
 ### GreenPlates. Food waste analytics pipeline
 An end to end SQL pipeline on restaurant IoT data, built in BigQuery. It covers ingestion, a dimensional model, and KPIs for tracking waste. Shows how I structure a warehouse and turn raw events into metrics people can act on.
 `BigQuery · dimensional modeling · KPIs`
-[View project](https://github.com/dimitrisdiam/greenplates)
+[View project](https://github.com/dimitrisdiam/greenplates-food-waste-analytics)
 
 ### Master's Thesis. Graph Neural Networks for fertility prediction
 Research applying Graph Neural Networks to predict fertility intentions from social network structure. It covers the modeling, the network analysis, and how social influence was represented in the graph.
 `PyTorch · GNNs · network analysis`
-[View project](https://github.com/dimitrisdiam/thesis)
+[View project](https://github.com/dimitrisdiam/Optimizing-Graph-Neural-Networks-for-Predicting-Fertility-Intentions-in-Social-Networks)
 
 ### Land Cover Classification. Satellite imagery to land types
 A machine learning pipeline that classifies land into types such as forest, water, and urban using spectral features like NDVI, NIR, and SWIR. Built as a full classification workflow with a Random Forest model.
 `scikit-learn · Random Forest · geospatial features`
-[View project](https://github.com/dimitrisdiam/land-cover)
+[View project](https://github.com/dimitrisdiam/land_cover_classification_ai)
 
 ### Predicting Student Scores. Supervised regression
 A regression project in a competition style format. Feature engineering plus model comparison across Ridge and XGBoost, tuned to reduce error on a held out set.
 `scikit-learn · XGBoost · feature engineering`
-[View project](https://github.com/dimitrisdiam/student-scores)
+[View project](https://github.com/dimitrisdiam/Supervised-Learning-Competition)
 
 ### Real Estate Price Tracker. Web scraping and automation
 A scraper that collects listing prices and writes them to Google Sheets on a schedule. A small, working data ingestion tool rather than a one off script.
 `Python · Selenium · automation`
-[View project](https://github.com/dimitrisdiam/real-estate-tracker)
+[View project](https://github.com/dimitrisdiam/Real_Estate_Scraping)
 
 ## What I'm working on now
 
