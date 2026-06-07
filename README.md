@@ -13,11 +13,16 @@ MSc in Applied Data Science, Utrecht University.
 
 **Languages:** Python, SQL, R
 **ML:** scikit-learn, XGBoost, PyTorch (Graph Neural Networks)
-**LLM and AI:** LangChain, OpenAI API, prompt engineering, retrieval
+**LLM and AI:** LangChain, OpenAI API, RAG, prompt engineering, retrieval
 **Data engineering:** ETL and ELT pipelines, Airflow, BigQuery, dimensional modeling
 **Cloud and tooling:** GCP (BigQuery, Vertex AI), Docker, Streamlit, Git
 
 ## Projects
+
+### Biomedical RAG with evaluation. Question answering over PubMed papers
+A retrieval augmented generation system that answers questions about biomedical literature, grounded in real PubMed abstracts. It retrieves the most relevant passages, then answers using only those. The focus is on measuring whether it works: retrieval metrics (hit@k, MRR) and answer checks for keyword recall and groundedness, to catch hallucination.
+`RAG · sentence-transformers · FAISS · OpenAI`
+[View project](https://github.com/dimitrisdiam/biomedical-rag)
 
 ### Company SQL Chatbot. Natural language questions over a database
 An assistant that connects an OpenAI model to a SQLite company database through a LangChain SQL agent. You ask a question in plain English, it writes and runs the SQL, and returns the answer. It also has an evaluation script that measures how often the answers are correct.
@@ -46,8 +51,8 @@ A scraper that collects listing prices and writes them to Google Sheets on a sch
 
 ## What I'm working on now
 
+- Stricter evaluation for the biomedical RAG project, using an LLM as a judge and adding a reranker
 - Combining LangChain with PySpark for querying larger datasets
-- Evaluation harnesses for LLM apps, so answers can be measured rather than assumed
 - Dashboards for sustainability analytics
 
 ## Get in touch
